@@ -51,3 +51,49 @@
 .amarelo {
     background-color: #efb661;
 }
+
+.exercicio-B {
+    justify-content: flex-start;
+    flex-flow: column-reverse nowrap;
+}
+
+.desafio {
+    justify-content: flex-start;
+    flex-direction: row;
+}
+
+.exercicio-B .azul-claro {
+    margin: 0;
+}
+
+.exercicio-B .azul-escuro {
+    margin: 0;
+}
+
+.exercicio-B .rosa {
+    margin: 0;
+}
+
+.exercicio-B .amarelo {
+    margin: 0;
+}
+
+.desafio .azul-claro {
+    order: 4;
+    margin: 0;
+}
+
+.desafio .azul-escuro {
+    order: 3;
+    margin: 0;
+}
+
+.desafio .rosa {
+    order: 2;
+    margin: 0;
+}
+
+.desafio .amarelo {
+    order: 1;
+    margin: 0;
+}
